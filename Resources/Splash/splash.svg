@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente da Moldura da TV -->
+    <linearGradient id="splashTvFrameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#EDE8DF" />
+    </linearGradient>
+
+    <!-- Gradiente da Sombra 3D da Moldura -->
+    <linearGradient id="splashTvBorderGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#D5CEBF" />
+    </linearGradient>
+
+    <!-- Gradiente do Ecrã Interior Mágico Escuro -->
+    <linearGradient id="splashScreenInnerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B4D3A" />
+      <stop offset="50%" stop-color="#123627" />
+      <stop offset="100%" stop-color="#091E15" />
+    </linearGradient>
+
+    <!-- Gradiente Dourado Mágico do Play -->
+    <linearGradient id="splashPlayGoldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF176" />
+      <stop offset="40%" stop-color="#FFB300" />
+      <stop offset="100%" stop-color="#FF8F00" />
+    </linearGradient>
+
+    <!-- Gradiente das Estrelas Mágicas -->
+    <linearGradient id="splashStarGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#FFE082" />
+      <stop offset="100%" stop-color="#FFA000" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sombra Projetada Simples e 100% Compatível -->
+  <rect x="131" y="169" width="250" height="190" rx="50" ry="50" fill="#000000" opacity="0.28" />
+
+  <!-- Antenas Compactas Integradas -->
+  <path d="M 220,165 L 200,128" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" />
+  <circle cx="196" cy="124" r="12" fill="url(#splashPlayGoldGrad)" stroke="#FFFFFF" stroke-width="3" />
+  
+  <path d="M 292,165 L 312,128" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" />
+  <circle cx="316" cy="124" r="12" fill="url(#splashPlayGoldGrad)" stroke="#FFFFFF" stroke-width="3" />
+
+  <!-- Corpo Principal da TV (250x190px Centrado a 256,256) -->
+  <rect x="131" y="161" width="250" height="190" rx="50" ry="50" fill="url(#splashTvFrameGrad)" stroke="url(#splashTvBorderGrad)" stroke-width="3" />
+
+  <!-- Ecrã Interior Escuro -->
+  <rect x="149" y="179" width="214" height="154" rx="36" ry="36" fill="url(#splashScreenInnerGrad)" />
+
+  <!-- Reflexo de Vidro -->
+  <path d="M 149,215 C 149,193 167,179 189,179 L 303,179 C 329,179 349,197 351,221 C 298,228 228,248 149,294 Z" fill="#FFFFFF" opacity="0.10" />
+
+  <!-- Botão Play Grande Dourado -->
+  <!-- Sombra Play -->
+  <path d="M 236,220 C 236,213 244,209 250,213 L 290,245 C 295,249 295,257 290,261 L 250,293 C 244,297 236,293 236,286 Z" fill="#000000" opacity="0.3" />
+  <!-- Corpo Play -->
+  <path d="M 236,216 C 236,209 244,205 250,209 L 290,241 C 295,245 295,253 290,257 L 250,289 C 244,293 236,289 236,282 Z" fill="url(#splashPlayGoldGrad)" />
+  <!-- Destaque Superior Play -->
+  <path d="M 240,220 C 240,216 245,213 249,216 L 278,241 C 282,244 282,249 278,252 L 249,277 C 245,280 240,277 240,273 Z" fill="#FFFFFF" opacity="0.25" />
+
+  <!-- Estrelas Mágicas ✨ -->
+  <path d="M 368,138 Q 368,152 382,152 Q 368,152 368,166 Q 368,152 354,152 Q 368,152 368,138 Z" fill="url(#splashStarGlow)" />
+  <path d="M 136,328 Q 136,338 146,338 Q 136,338 136,348 Q 136,338 126,338 Q 136,338 136,328 Z" fill="url(#splashStarGlow)" />
+</svg>

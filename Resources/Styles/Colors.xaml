@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Identidade Principal yChicaTube (Verde Esmeralda Infantil Moderno) -->
+    <Color x:Key="BrandGreen">#10B981</Color>
+    <Color x:Key="BrandGreenDark">#059669</Color>
+    <Color x:Key="BrandGreenLight">#34D399</Color>
+    <Color x:Key="BrandGreenSoft">#ECFDF5</Color>
+    <Color x:Key="BrandGreenSoftDark">#064E3B</Color>
+
+    <!-- Compatibilidade de Recursos MAUI -->
+    <Color x:Key="Primary">#10B981</Color>
+    <Color x:Key="PrimaryDark">#34D399</Color>
+    <Color x:Key="PrimaryDarkText">#0F172A</Color>
+    <Color x:Key="Secondary">#ECFDF5</Color>
+    <Color x:Key="SecondaryDarkText">#059669</Color>
+    <Color x:Key="Tertiary">#047857</Color>
+
+    <!-- Cores de Destaque Secundárias -->
+    <Color x:Key="AccentAmber">#F59E0B</Color>
+    <Color x:Key="AccentAmberSoft">#FEF3C7</Color>
+    <Color x:Key="AccentBlue">#3B82F6</Color>
+    <Color x:Key="AccentBlueSoft">#EFF6FF</Color>
+    <Color x:Key="AccentRed">#EF4444</Color>
+    <Color x:Key="AccentRedSoft">#FEE2E2</Color>
+
+    <!-- Cores Básicas & Neutras -->
+    <Color x:Key="White">#FFFFFF</Color>
+    <Color x:Key="Black">#000000</Color>
+    <Color x:Key="OffBlack">#101010</Color>
+    <Color x:Key="MidnightBlue">#0F172A</Color>
+    <Color x:Key="Magenta">#10B981</Color>
+
+    <Color x:Key="Gray50">#F8FAFC</Color>
+    <Color x:Key="Gray100">#F1F5F9</Color>
+    <Color x:Key="Gray200">#E2E8F0</Color>
+    <Color x:Key="Gray300">#CBD5E1</Color>
+    <Color x:Key="Gray400">#94A3B8</Color>
+    <Color x:Key="Gray500">#64748B</Color>
+    <Color x:Key="Gray600">#475569</Color>
+    <Color x:Key="Gray700">#334155</Color>
+    <Color x:Key="Gray800">#1E293B</Color>
+    <Color x:Key="Gray900">#0F172A</Color>
+    <Color x:Key="Gray950">#0B0F12</Color>
+
+    <!-- Tokens Semânticos para Temas Claro e Escuro -->
+    <Color x:Key="PageBgLight">#F8FAFC</Color>
+    <Color x:Key="PageBgDark">#0B0F14</Color>
+
+    <Color x:Key="SurfaceBgLight">#FFFFFF</Color>
+    <Color x:Key="SurfaceBgDark">#161D24</Color>
+
+    <Color x:Key="SurfaceElevatedLight">#F1F5F9</Color>
+    <Color x:Key="SurfaceElevatedDark">#1F2933</Color>
+
+    <Color x:Key="BorderLight">#E2E8F0</Color>
+    <Color x:Key="BorderDark">#26333D</Color>
+
+    <Color x:Key="TextPrimaryLight">#0F172A</Color>
+    <Color x:Key="TextPrimaryDark">#F8FAFC</Color>
+
+    <Color x:Key="TextSecondaryLight">#64748B</Color>
+    <Color x:Key="TextSecondaryDark">#94A3B8</Color>
+
+    <!-- Tokens Semânticos de Foco TV (10-Foot UI Focus Design System) -->
+    <Color x:Key="TvFocusBorder">#FACC15</Color>
+    <Color x:Key="TvFocusBorderHighlight">#FEF08A</Color>
+    <Color x:Key="TvFocusCardBg">#1E293B</Color>
+    <Color x:Key="TvNormalCardBg">#1E293B</Color>
+    <Color x:Key="TvNormalBorder">#334155</Color>
+    <Color x:Key="TvFocusGlowColor">#66FACC15</Color>
+
+    <!-- Pincéis (SolidColorBrush) -->
+    <SolidColorBrush x:Key="BrandGreenBrush" Color="{StaticResource BrandGreen}"/>
+    <SolidColorBrush x:Key="BrandGreenDarkBrush" Color="{StaticResource BrandGreenDark}"/>
+    <SolidColorBrush x:Key="BrandGreenLightBrush" Color="{StaticResource BrandGreenLight}"/>
+    <SolidColorBrush x:Key="TvFocusBorderBrush" Color="{StaticResource TvFocusBorder}"/>
+    <SolidColorBrush x:Key="TvFocusBorderHighlightBrush" Color="{StaticResource TvFocusBorderHighlight}"/>
+    <SolidColorBrush x:Key="TvFocusCardBgBrush" Color="{StaticResource TvFocusCardBg}"/>
+    <SolidColorBrush x:Key="TvNormalCardBgBrush" Color="{StaticResource TvNormalCardBg}"/>
+    <SolidColorBrush x:Key="TvNormalBorderBrush" Color="{StaticResource TvNormalBorder}"/>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+    <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}"/>
+    <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}"/>
+    <SolidColorBrush x:Key="Gray500Brush" Color="{StaticResource Gray500}"/>
+    <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
+</ResourceDictionary>

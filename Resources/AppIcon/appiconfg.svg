@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="456" height="456" viewBox="0 0 456 456" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente da Moldura da TV (Branco Pérola a Creme Suave) -->
+    <linearGradient id="tvFrameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#EDE8DF" />
+    </linearGradient>
+
+    <!-- Gradiente da Sombra 3D da Moldura -->
+    <linearGradient id="tvBorderGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#D5CEBF" />
+    </linearGradient>
+
+    <!-- Gradiente do Ecrã Interior Mágico Escuro -->
+    <linearGradient id="screenInnerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1B4D3A" />
+      <stop offset="50%" stop-color="#123627" />
+      <stop offset="100%" stop-color="#091E15" />
+    </linearGradient>
+
+    <!-- Gradiente Dourado Mágico do Play -->
+    <linearGradient id="playGoldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF176" />
+      <stop offset="40%" stop-color="#FFB300" />
+      <stop offset="100%" stop-color="#FF8F00" />
+    </linearGradient>
+
+    <!-- Gradiente das Estrelas Mágicas -->
+    <linearGradient id="starGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#FFE082" />
+      <stop offset="100%" stop-color="#FFA000" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sombra Projetada Simples e 100% Compatível com MAUI Resizetizer -->
+  <rect x="110" y="145" width="236" height="184" rx="48" ry="48" fill="#000000" opacity="0.28" />
+
+  <!-- Antenas Compactas Integradas no Topo -->
+  <!-- Antena Esquerda -->
+  <path d="M 194,142 L 176,108" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" />
+  <circle cx="172" cy="104" r="11" fill="url(#playGoldGrad)" stroke="#FFFFFF" stroke-width="2.5" />
+  
+  <!-- Antena Direita -->
+  <path d="M 262,142 L 280,108" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" />
+  <circle cx="284" cy="104" r="11" fill="url(#playGoldGrad)" stroke="#FFFFFF" stroke-width="2.5" />
+
+  <!-- Corpo Principal / Moldura Branca Suave da TV (236x184px - Proporção Perfeita e Margens Seguras) -->
+  <rect x="110" y="138" width="236" height="184" rx="48" ry="48" fill="url(#tvFrameGrad)" stroke="url(#tvBorderGrad)" stroke-width="3" />
+  
+  <!-- Ecrã Interior Mágico Escuro -->
+  <rect x="126" y="154" width="204" height="152" rx="34" ry="34" fill="url(#screenInnerGrad)" />
+
+  <!-- Reflexo de Vidro Suave -->
+  <path d="M 126,188 C 126,168 142,154 162,154 L 270,154 C 294,154 312,170 314,192 C 265,198 200,216 126,260 Z" fill="#FFFFFF" opacity="0.10" />
+
+  <!-- Botão Play Grande e Arredondado Dourado -->
+  <!-- Sombra do Botão Play -->
+  <path d="M 210,198 C 210,191 218,187 224,191 L 262,221 C 267,225 267,233 262,237 L 224,267 C 218,271 210,267 210,260 Z" fill="#000000" opacity="0.3" />
+  <!-- Corpo do Botão Play -->
+  <path d="M 210,194 C 210,187 218,183 224,187 L 262,217 C 267,221 267,229 262,233 L 224,263 C 218,267 210,263 210,256 Z" fill="url(#playGoldGrad)" />
+  <!-- Destaque Superior Play -->
+  <path d="M 214,198 C 214,194 219,191 223,194 L 250,217 C 254,220 254,225 250,228 L 223,251 C 219,254 214,251 214,247 Z" fill="#FFFFFF" opacity="0.25" />
+
+  <!-- Estrela Mágica Superior Direita ✨ -->
+  <path d="M 328,114 Q 328,126 340,126 Q 328,126 328,138 Q 328,126 316,126 Q 328,126 328,114 Z" fill="url(#starGlow)" />
+
+  <!-- Pequena Estrela Mágica Inferior Esquerda ✨ -->
+  <path d="M 114,290 Q 114,298 122,298 Q 114,298 114,306 Q 114,298 106,298 Q 114,298 114,290 Z" fill="url(#starGlow)" />
+</svg>
