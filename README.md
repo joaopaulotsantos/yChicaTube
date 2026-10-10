@@ -80,7 +80,7 @@ Podemos atualizar esta Política de Privacidade periodicamente para refletir mel
 
 ## 10. Contacto
 Se tiver alguma dúvida, preocupação ou sugestão sobre esta Política de Privacidade ou sobre as práticas do yChicaTube, entre em contacto connosco através do e-mail:  
-📧 **E-mail de Suporte:** [suporte.ychicatube@gmail.com](mailto:suporte.ychicatube@gmail.com)
+📧 **E-mail de Suporte:** [joaopaulotsantos@gmail.com](mailto:joaopaulotsantos@gmail.com)
 
 ---
 
